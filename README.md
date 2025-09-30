@@ -1,4 +1,4 @@
-# 📐 Proyecto de Traslación y Rotación de Figuras 2D  
+# 📐 Proyecto: transformacionesGeometricas  
 
 ## 📚 Introducción  
 Este proyecto fue desarrollado como parte de la clase de **Álgebra Lineal**, con el objetivo de aplicar los conocimientos adquiridos sobre **transformaciones lineales** en el plano.  
@@ -39,8 +39,9 @@ Las transformaciones geométricas son fundamentales en matemáticas, ciencias de
 
 ---
 
-## 🚀 Ejecución del proyecto  
+## 🚀 Cómo ejecutar el proyecto  
 Clonar el repositorio:  
 ```bash
-git clone https://github.com/usuario/proyecto-traslacion-rotacion.git
-cd proyecto-traslacion-rotacion
+git clone https://github.com/usuario/transformacionesGeometricas.git
+cd transformacionesGeometricas
+
