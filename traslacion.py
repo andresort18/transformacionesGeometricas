@@ -39,7 +39,6 @@ class TraslacionApp:
         except ValueError:
             print("Por favor ingresa números válidos.")
 
-# Ejecutar programa
 root = tk.Tk()
 app = TraslacionApp(root)
 root.mainloop()
