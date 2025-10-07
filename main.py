@@ -1,5 +1,6 @@
 import tkinter as tk
 import subprocess
+import sys
 
 from tkinter import Menu
 from PIL import Image, ImageTk
@@ -10,7 +11,7 @@ def opcion2():
     print("Opción 2 seleccionada")
 
 def abrir_trasladar():
-    subprocess.Popen(["python", "traslacion.py"])   
+    subprocess.Popen([sys.executable,"traslacion.py"])   
 
 #ventana principal
 root = tk.Tk()
