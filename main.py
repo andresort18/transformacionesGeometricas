@@ -10,10 +10,13 @@ def opcion2():
     print("Opción 2 seleccionada")
 
 def abrir_trasladar():
-    subprocess.Popen(["python", "traslacion.py"])
+    subprocess.Popen(["python3", "traslacion.py"])
 
 def abrir_dibujar():
-    subprocess.Popen(["python", "dibujarFigura.py"])       
+    subprocess.Popen(["python3", "dibujarFigura.py"])
+
+def abrir_rotar():
+    subprocess.Popen(["python3","rotar.py"])       
 
 #ventana principal
 root = tk.Tk()
@@ -50,6 +53,6 @@ frame_botones.pack(pady=20)
 btn_trasladar = tk.Button(frame_botones, text="Trasladar", width=30,command=abrir_trasladar)
 btn_trasladar.pack(side="left", padx=40)
 
-btn_rotar = tk.Button(frame_botones, text="Rotar", width=30)
+btn_rotar = tk.Button(frame_botones, text="Rotar", width=30,command=abrir_rotar)
 btn_rotar.pack(side="right", padx=40)
 root.mainloop()
