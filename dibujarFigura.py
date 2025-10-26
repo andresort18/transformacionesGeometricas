@@ -7,7 +7,6 @@ pantalla.geometry('900x700')
 
 # variables
 puntos = []
-figura_funcion = None  # Aquí guardaremos la función figura_procesada
 
 #declaracion de funciones
 def agregar_vector():
